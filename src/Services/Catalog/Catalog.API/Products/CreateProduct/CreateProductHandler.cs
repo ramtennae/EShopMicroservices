@@ -33,6 +33,7 @@ namespace Catalog.API.Products.CreateProduct
             // save to database
             //      TODO
             // return the result
+            //      TODO actual guid, not random
             return new CreateProductResult(Guid.NewGuid());
         }
     }
